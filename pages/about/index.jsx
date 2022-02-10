@@ -1,8 +1,10 @@
-import * as React from "react";
-import Container from "@mui/material/Container";
-import Button from "@mui/material/Button";
-import Grid from "@mui/material/Grid";
-import Link from "../../src/components/link/Link";
+import * as React from 'react'
+import Container from '@mui/material/Container'
+import Button from '@mui/material/Button'
+import Grid from '@mui/material/Grid'
+import Link from '../../src/components/link/Link'
+import Logo from '../../src/components/Logo'
+import styled from '@emotion/styled'
 
 export default function About() {
   return (
@@ -14,6 +16,8 @@ export default function About() {
           </Button>
         </Grid>
       </Grid>
+      <Logo type="muted" />
+      <Logo />
     </Container>
-  );
+  )
 }
