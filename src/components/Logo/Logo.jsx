@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 
-const Logo = ({ type }) => {
+const Logo = ({type}) => {
   return (
     <React.Fragment>
       {type === 'muted' ? (
