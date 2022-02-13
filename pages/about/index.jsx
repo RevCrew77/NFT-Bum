@@ -3,7 +3,7 @@ import Container from '@mui/material/Container'
 import Button from '@mui/material/Button'
 import Grid from '@mui/material/Grid'
 import Link from '../../src/components/link/Link'
-import Logo from '../../src/components/Logo'
+import Logo from '../../src/components/logo/Logo'
 import styled from '@emotion/styled'
 
 export default function About() {
